@@ -14,7 +14,6 @@ end
   end
   
   post '/checkout' do
-    session["name"] = "Dwane"
-    @session = session
+    params
   end
 end
