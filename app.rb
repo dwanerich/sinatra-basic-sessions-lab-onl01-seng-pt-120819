@@ -14,7 +14,6 @@ end
   end
   
   post '/checkout' do
-    params[:item]
-    enable :sessions
+    @session = params[:item]
   end
 end
